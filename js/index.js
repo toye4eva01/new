@@ -69,7 +69,7 @@ var app = {
                 "cancelled: " + result.cancelled + "\n");
             document.getElementById("info").innerHTML = result.text;
 //card number in textbox
- var addd = document.getElementById("info").innerHTML = result.text;
+ var addd = result.text;
 			Cardno.val(addd);
 			
             console.log(result);
