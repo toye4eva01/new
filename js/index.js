@@ -70,7 +70,7 @@ var app = {
             document.getElementById("info").innerHTML = result.text;
 //card number in textbox
  var addd = result.text;
-			Cardno.val(addd);
+			$('#cardno').val(addd);
 			
             console.log(result);
 			
