@@ -67,12 +67,12 @@ var app = {
                 "text: " + result.text + "\n" +
                 "format: " + result.format + "\n" +
                 "cancelled: " + result.cancelled + "\n");
-            document.getElementById("info").innerHTML = result.text;
+            document.getElementById("cardno").innerHTML = result.text;
 //card number in textbox
- var addd = result.text;
-			$('#cardno').val(addd);
+/* var addd = result.text;
+			$('#cardno').val(addd);*/
 			
-            console.log(result);
+            console.log(result);   
 			
             /*
             if (args.format == "QR_CODE") {
